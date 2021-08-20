@@ -1,0 +1,12 @@
+@import "tamaniosyfuentes";
+@import "colores";
+$padding:50px;
+$margin:50px;
+.paddingTB{
+	padding-top:$padding;
+	padding_bottom:$padding;
+}
+.marginID{
+	margin-left:$margin;
+	margin_right:$margin;
+}

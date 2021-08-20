@@ -1,0 +1,61 @@
+@import "colores";
+$tituloD:40px;
+$tituloM:$tituloD/2;
+$parrafoD:25px;
+$parrafoM:$parrafoD/2;
+
+.links{
+	a{
+	font-size:$parrafoD;
+	color:$Verde !important;
+	font-style:bold;
+	}
+}
+
+.carrusel_index{
+	margin-left:250px
+}
+
+.titulos{
+	h1{
+		font-size:$tituloD;
+		color:$Verde;
+		text-align:center;
+		text-decoration:underline;
+		font-style:Bold;
+	}
+	@media only screen and (max-width:767px){
+	h1{
+	font-size:$tituloM;
+	color:$Verde;
+	text-align:center;
+	text-decoration:underline;
+	font-style:Bold;
+	}
+	}
+}
+
+.subtitulos{
+	h2{
+		font-size:$tituloD;
+		color:$Verde;
+		text-algin:left;
+		font-style:italic;
+		text-transform:uppercase;
+	}
+}
+
+.warning{
+	p{
+	font-size:$parrafoD;
+	color:$Naranja;
+	}
+}
+
+.parrafos{
+	p{
+	font-size:$parrafoD;
+	color:$Verde;
+	font-style:bold;
+	}
+}

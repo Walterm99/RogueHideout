@@ -1,0 +1,49 @@
+.backgroundGeneral {
+  background-image: url("../assets/backgrounds/marble.jpeg"); }
+
+.links a {
+  font-size: 25px;
+  color: lightgreen !important;
+  font-style: bold; }
+
+.carrusel_index {
+  margin-left: 250px; }
+
+.titulos h1 {
+  font-size: 40px;
+  color: lightgreen;
+  text-align: center;
+  text-decoration: underline;
+  font-style: Bold; }
+
+@media only screen and (max-width: 767px) {
+  .titulos h1 {
+    font-size: 20px;
+    color: lightgreen;
+    text-align: center;
+    text-decoration: underline;
+    font-style: Bold; } }
+
+.subtitulos h2 {
+  font-size: 40px;
+  color: lightgreen;
+  text-algin: left;
+  font-style: italic;
+  text-transform: uppercase; }
+
+.warning p {
+  font-size: 25px;
+  color: orange; }
+
+.parrafos p {
+  font-size: 25px;
+  color: lightgreen;
+  font-style: bold; }
+
+.paddingTB {
+  padding-top: 50px;
+  padding_bottom: 50px; }
+
+.marginID {
+  margin-left: 50px;
+  margin_right: 50px; }
