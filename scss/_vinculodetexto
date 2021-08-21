@@ -1,0 +1,27 @@
+@import	"colores";
+a.conTexto{
+	position:relative;
+}
+a.conTexto div{
+	position:relative;
+	top:100%;
+	left:100%;
+	visibility:hidden;
+}
+a.conTexto:hover div{
+	display:block;
+}
+
+.PT{
+	p{
+	font-size:25px;
+	color:$Naranja;
+	}	
+}
+.PN{
+	p{
+	font-size:15px;
+	color:$Amarillo;
+	}
+}
+

@@ -1,0 +1,12 @@
+a.conImagen{
+	position:relative;
+}
+a.conImagen img{
+	position:absolute;
+	top:100%;
+	left:100%;
+	display:none;
+}
+a.conImagen:hover img{
+	display:block;
+	}

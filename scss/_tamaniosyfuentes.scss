@@ -1,15 +1,24 @@
+
 @import "colores";
+$microTitulo:20px;
+$microParrafo:15px;
 $tituloD:40px;
+$subtituloD:30px;
 $tituloM:$tituloD/2;
+$subtituloM:$subtituloD/2;
 $parrafoD:25px;
 $parrafoM:$parrafoD/2;
 
 .links{
 	a{
 	font-size:$parrafoD;
-	color:$Verde !important;
+	color:$Naranja !important;
 	font-style:bold;
 	}
+}
+
+.centrarImagenes{
+	margin-left:250px
 }
 
 .carrusel_index{
@@ -19,7 +28,7 @@ $parrafoM:$parrafoD/2;
 .titulos{
 	h1{
 		font-size:$tituloD;
-		color:$Verde;
+		color:$Naranja;
 		text-align:center;
 		text-decoration:underline;
 		font-style:Bold;
@@ -27,7 +36,7 @@ $parrafoM:$parrafoD/2;
 	@media only screen and (max-width:767px){
 	h1{
 	font-size:$tituloM;
-	color:$Verde;
+	color:$Naranja;
 	text-align:center;
 	text-decoration:underline;
 	font-style:Bold;
@@ -37,25 +46,49 @@ $parrafoM:$parrafoD/2;
 
 .subtitulos{
 	h2{
-		font-size:$tituloD;
-		color:$Verde;
-		text-algin:left;
+		font-size:$subtituloD;
+		color:$Amarillo;
 		font-style:italic;
 		text-transform:uppercase;
+		text-decoration:underline;
 	}
 }
 
 .warning{
 	p{
 	font-size:$parrafoD;
-	color:$Naranja;
+	color:$Amarillo;
 	}
 }
 
 .parrafos{
 	p{
 	font-size:$parrafoD;
-	color:$Verde;
+	color:$Naranja;
 	font-style:bold;
+	background-color:$Negro;
 	}
 }
+
+.vinculos{
+	color:$Verde;
+}
+
+.diseñoLista{
+	li{
+	font-size:$parrafoD;
+	color:$Naranja;
+	font-style:bold;
+	background-color:$Negro;
+	}
+}
+
+.microSection{
+	h1{
+		font-size:$tituloD;
+		color:$Naranja !important;
+		text-align:center;
+		text-decoration:underline;
+		font-style:Bold;
+	}
+	}

@@ -1,17 +1,21 @@
+@charset "UTF-8";
 .backgroundGeneral {
   background-image: url("../assets/backgrounds/marble.jpeg"); }
 
 .links a {
   font-size: 25px;
-  color: lightgreen !important;
+  color: #f5b041 !important;
   font-style: bold; }
+
+.centrarImagenes {
+  margin-left: 250px; }
 
 .carrusel_index {
   margin-left: 250px; }
 
 .titulos h1 {
   font-size: 40px;
-  color: lightgreen;
+  color: #f5b041;
   text-align: center;
   text-decoration: underline;
   font-style: Bold; }
@@ -19,26 +23,43 @@
 @media only screen and (max-width: 767px) {
   .titulos h1 {
     font-size: 20px;
-    color: lightgreen;
+    color: #f5b041;
     text-align: center;
     text-decoration: underline;
     font-style: Bold; } }
 
 .subtitulos h2 {
-  font-size: 40px;
-  color: lightgreen;
-  text-algin: left;
+  font-size: 30px;
+  color: #f7dc6f;
   font-style: italic;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-decoration: underline; }
 
 .warning p {
   font-size: 25px;
-  color: orange; }
+  color: #f7dc6f; }
 
 .parrafos p {
   font-size: 25px;
-  color: lightgreen;
-  font-style: bold; }
+  color: #f5b041;
+  font-style: bold;
+  background-color: Black; }
+
+.vinculos {
+  color: #7dcea0; }
+
+.diseñoLista li {
+  font-size: 25px;
+  color: #f5b041;
+  font-style: bold;
+  background-color: Black; }
+
+.microSection h1 {
+  font-size: 40px;
+  color: #f5b041 !important;
+  text-align: center;
+  text-decoration: underline;
+  font-style: Bold; }
 
 .paddingTB {
   padding-top: 50px;
@@ -47,3 +68,27 @@
 .marginID {
   margin-left: 50px;
   margin_right: 50px; }
+
+a.conImagen {
+  position: relative; }
+
+a.conImagen img {
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  display: none; }
+
+a.conImagen:hover img {
+  display: block; }
+
+a.conTexto {
+  position: relative; }
+
+a.conTexto p {
+  position: relative;
+  top: 100%;
+  left: 100%;
+  display: none; }
+
+a.conTexto:hover p {
+  display: block; }
