@@ -1,3 +1,14 @@
+@import "colores";
 .backgroundGeneral{
 	background-image:url("../assets/backgrounds/marble.jpeg");
+}
+
+.backgroundMenu{
+	background-color:transparent;
+}
+
+.backgroundMenuClase{
+	background-color:transparent;
+	border:px;
+	border-color:$Naranja;
 }

@@ -14,7 +14,11 @@
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
   },
-  "dependencies": {},
+  "dependencies": {
+    "-": "0.0.1",
+    "D": "^1.0.0",
+    "sass": "^1.38.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Walterm99/RogueHideout.git"

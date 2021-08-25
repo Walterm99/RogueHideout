@@ -2,6 +2,14 @@
 .backgroundGeneral {
   background-image: url("../assets/backgrounds/marble.jpeg"); }
 
+.backgroundMenu {
+  background-color: transparent; }
+
+.backgroundMenuClase {
+  background-color: transparent;
+  border: px;
+  border-color: #f5b041; }
+
 .links a {
   font-size: 25px;
   color: #f5b041 !important;
@@ -61,6 +69,11 @@
   text-decoration: underline;
   font-style: Bold; }
 
+.titulosClase h5 {
+  font-size: 25px;
+  color: #f7dc6f;
+  font-style: Bold; }
+
 .paddingTB {
   padding-top: 50px;
   padding_bottom: 50px; }
@@ -100,3 +113,9 @@ a.conTexto:hover div {
 .PN p {
   font-size: 15px;
   color: #f7dc6f; }
+
+.cards div {
+  border-top: solid #f5b041;
+  border-left: solid #f5b041;
+  border-right: solid #f5b041;
+  border-bottom: solid #f5b041; }
